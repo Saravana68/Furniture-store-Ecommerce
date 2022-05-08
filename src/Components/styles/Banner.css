@@ -1,0 +1,71 @@
+.banner-container{
+     /* background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% ); */
+    background-color: rgba(11,27,103,1);
+    width: 100vw;
+    height: auto;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 2rem;
+    overflow-y: scroll;
+    padding:1rem;
+    overflow-x: hidden;
+    margin-bottom: 5rem;
+}
+
+
+.catalog-btn{
+    text-decoration: none;
+    color: rgba(11,27,103,1);;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.inner-container{
+    color:rgb(255, 255, 255);
+    width: 90%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    
+    border-radius: 2rem;
+    overflow-x: hidden;
+
+-webkit-box-shadow: 1px 5px 17px 2px rgba(0,0,0,0.74);
+-moz-box-shadow: 1px 5px 17px 2px rgba(0,0,0,0.74);
+box-shadow: 1px 5px 17px 2px rgba(0,0,0,0.74);
+    
+
+}
+
+.gif-container{
+    width: 50%;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+.text-container{
+     background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    border :2px solid black;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+    width: 65%;
+    object-fit:fill;
+    overflow-y: hidden;
+}
+
